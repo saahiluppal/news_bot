@@ -2,20 +2,20 @@ import requests
 import json
 import time
 
-class USNews:
+class INDIANews:
     def __init__(self):
-        url=('https://newsapi.org/v2/top-headlines?country=us&apiKey=86417ac79aea427e9d04c87169c22632')
+        url=('https://newsapi.org/v2/top-headlines?country=in&apiKey=86417ac79aea427e9d04c87169c22632')
         self.time_exceed=0
         while True:
             try:
                 response = requests.get(url)
-                print('Got US News.....')
+                print('Got INDIAN News.....')
                 break
             except:
-                print('Failed to get US news... trying again in 2 secs')
+                print('Failed to get INDIAN news... trying again in 2 secs')
                 self.time_exceed+=1
                 if self.time_exceed==3:
-                    print('Failed to get US News')
+                    print('Failed to get INDIAN News')
                     exit()
                 time.sleep(2)
             
@@ -31,7 +31,7 @@ class USNews:
         return self.jsonfile['totalResults']
 
     def getNews(self):
-        self.newsFile = open("AmericanNews.txt",'w')
+        self.newsFile = open("IndiaNews.txt",'w')
 
         for news in self.jsonfile['articles']:
             self.id = news['source']['id'] if news['source']['id']!=None else 'Unknown'
@@ -46,7 +46,7 @@ class USNews:
             self.printNews()
 
         self.newsFile.close()
-        print('US news printed successful')
+        print('Indian News printed successful')
 
     def printNews(self):
         
@@ -66,4 +66,4 @@ if __name__=="__main__":
     usnews = USNews()
     #print(usnews.getJson())
     usnews.getNews()
-    print('US News printed Successfully')
+    print('INDIAN News printed Successfully')
