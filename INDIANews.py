@@ -1,10 +1,12 @@
 import requests
 import json
 import time
+import os
 
 class INDIANews:
     def __init__(self):
-        url=('https://newsapi.org/v2/top-headlines?country=in&apiKey=86417ac79aea427e9d04c87169c22632')
+        newsapikey = os.environ.get('NEWSAPI_KEY')
+        url=f'https://newsapi.org/v2/top-headlines?country=in&apiKey={newsapikey}'
         self.time_exceed=0
         while True:
             try:
