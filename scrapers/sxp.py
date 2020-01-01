@@ -5,5 +5,5 @@ import time
 
 browser = webdriver.Firefox(executable_path=os.getcwd()+'/geckodriver')
 #yahoo.headlines(browser)
-yahoo.trending(browser)
+print(yahoo.trending(browser))
 browser.close()
