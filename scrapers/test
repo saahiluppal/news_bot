@@ -1,13 +1,26 @@
-links text:
-/html/body/div[1]/div/div[1]/div/div[3]/div[2]/div/div/div/div/div/div[7]/div/div/div/div[1]/div/div/div[2]/h3/a/div
-/html/body/div[1]/div/div[1]/div/div[3]/div[2]/div/div/div/div/div/div[7]/div/div/div/div[2]/div/div/div[2]/h3/a/div
-/html/body/div[1]/div/div[1]/div/div[3]/div[2]/div/div/div/div/div/div[7]/div/div/div/div[3]/div/div/div[2]/h3/a/div
-/html/body/div[1]/div/div[1]/div/div[3]/div[2]/div/div/div/div/div/div[7]/div/div/div/div[4]/div/div/div[2]/h3/a/div
-/html/body/div[1]/div/div[1]/div/div[3]/div[2]/div/div/div/div/div/div[7]/div/div/div/div[5]/div/div/div[2]/h3/a/div
+links 
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[2]/div/div/div[2]/h3/a/u
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[3]/div/div[1]/div/h3/a/u -> ad
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[4]/div/div/div[2]/h3/a/u
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[5]/div/div/div[2]/h3/a/u
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[6]/div/div/div[2]/h3/a/u
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[7]/div/div[1]/div/h3/a/u
 
-images:
-/html/body/div[1]/div/div[1]/div/div[3]/div[2]/div/div/div/div/div/div[7]/div/div/div/div[1]/div/div/div[1]/a/img
-/html/body/div[1]/div/div[1]/div/div[3]/div[2]/div/div/div/div/div/div[7]/div/div/div/div[2]/div/div/div[1]/a/img
-/html/body/div[1]/div/div[1]/div/div[3]/div[2]/div/div/div/div/div/div[7]/div/div/div/div[3]/div/div/div[1]/a/img
-/html/body/div[1]/div/div[1]/div/div[3]/div[2]/div/div/div/div/div/div[7]/div/div/div/div[4]/div/div/div[1]/a/img
-/html/body/div[1]/div/div[1]/div/div[3]/div[2]/div/div/div/div/div/div[7]/div/div/div/div[5]/div/div/div[1]/a/img
+desc
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[2]/div/div/div[2]/p
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[3]/div/div[1]/div/p -> ad
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[4]/div/div/div[2]/p
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[5]/div/div/div[2]/p
+ 
+img_src
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[2]/div/div/div[1]/div/img
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[3]/div/div[1]/a/div/img -> ad
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[4]/div/div/div[1]/div/img
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[5]/div/div/div[1]/div/img  src
+
+url
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[2]/div/div/div[2]/h3/a
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[3]/div/div[1]/a -> ad
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[4]/div/div/div[2]/h3/a
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[5]/div/div/div[2]/h3/a
+/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul/li[5]/div/div/div[2]/h3/a  href
