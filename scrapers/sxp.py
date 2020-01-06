@@ -1,9 +1,7 @@
 from selenium import webdriver
 import yahoo_sxp as yahoo
 import os
-import time
 
 browser = webdriver.Firefox(executable_path=os.getcwd()+'/geckodriver')
-#yahoo.headlines(browser)
-print(yahoo.trending(browser))
-browser.close()
+print(yahoo.fetch(browser, ['trending']))
+#browser.close()
