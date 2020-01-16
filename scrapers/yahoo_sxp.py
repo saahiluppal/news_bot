@@ -1,5 +1,3 @@
-import time
-
 def fetch(browser, entities=['headlines'], count=10):
 
     returnable = list()
@@ -29,6 +27,7 @@ def trending(browser, count):
     browser.get('https://news.yahoo.com')
 
     trending_path = '/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div[2]/div/div/div/ul'
+    browser.implicitly_wait(1)
 
     for val in range(2, count + 2):
         try:
@@ -36,11 +35,6 @@ def trending(browser, count):
             description = browser.find_element_by_xpath(trending_path + f'/li[{val}]/div/div/div[2]/p').text
             img_src = browser.find_element_by_xpath(trending_path + f'/li[{val}]/div/div/div[1]/div/img').get_attribute("src")
             url = browser.find_element_by_xpath(trending_path + f'/li[{val}]/div/div/div[2]/h3/a').get_attribute('href')
-            print(headline)
-            print(description)
-            print(img_src)
-            print(url)
-            print()
         except:
             pass
 
