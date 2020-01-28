@@ -67,7 +67,6 @@ def world(browser, count):
             counter+=1
             if counter >= count:
                 break
-            print('hello world')
         except:
             pass
 
